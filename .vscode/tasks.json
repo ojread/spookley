@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"run with pico-tools","type":"shell","command":"pico-tools build ${file}","isBackground":false,"group":{"kind":"build","isDefault":true}},{"label":"watch with pico-tools","type":"shell","command":"pico-tools watch ${file}","isBackground":true,"group":{"kind":"build","isDefault":true}}]}
